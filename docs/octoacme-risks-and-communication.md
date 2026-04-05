@@ -9,9 +9,16 @@ Maintain a simple table with:
 - Description
 - Impact (High/Med/Low)
 - Likelihood (High/Med/Low)
-- Owner
+- Owner (see [Roles & Personas](octoacme-roles-and-personas.md) for role definitions)
 - Mitigation plan
 - Status
+
+**Default risk owners by type:**
+- Schedule / scope risks → **Project Manager**
+- Requirements ambiguity → **Business Analyst** + **Product Manager**
+- Technical / architecture risks → **Developers** + **DevOps Engineer**
+- Quality / testing risks → **QA Lead**
+- Process / team dynamic risks → **Scrum Master**
 
 ## Risk Lifecycle
 - Identify: during planning and ongoing execution
@@ -21,6 +28,8 @@ Maintain a simple table with:
 
 ## Stakeholder Communication
 - Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
+- **Project Manager** owns stakeholder status reporting; **Scrum Master** owns team-facing communication
+- **Business Analyst** ensures business stakeholders are kept informed of scope and requirements decisions
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
 
@@ -38,5 +47,8 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
-- For security incidents, follow the security incident runbook and notify Security on-call
+- Team-level → **Scrum Master** (impediment removal and team-level triage)
+- **Scrum Master** → **Project Manager** (cross-team or resource-level escalation)
+- **Project Manager** → Product Lead → Sponsor (business-impacting escalation)
+- For security incidents, **DevOps Engineer** leads triage; follow the security incident runbook and notify Security on-call
+- For requirements disputes, **Business Analyst** facilitates resolution between stakeholders and the delivery team
