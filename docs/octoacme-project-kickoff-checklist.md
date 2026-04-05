@@ -39,33 +39,35 @@ Complete the following before or during the kickoff meeting.
 ## RACI Ownership Matrix Template
 
 **How to read:** For each key activity, assign one of:
-- **R** — Responsible (does the work)
-- **A** — Accountable (final decision-maker / sign-off)
-- **C** — Consulted (provides input)
-- **I** — Informed (kept up to date)
+- **R** — Responsible (does the work; multiple R entries per row are allowed when work is shared)
+- **A** — Accountable (final decision-maker / sign-off; exactly **one** A per row)
+- **C** — Consulted (provides input before or during the work)
+- **I** — Informed (kept up to date after decisions are made)
+
+> When the same person is both Accountable and Responsible (i.e., they own and do the work), assign **A** in that cell. A separate **R** is only needed when responsibility is shared with other roles.
 
 Replace role names in the header row if your team uses different titles. Add or remove rows as needed for your project.
 
 | Activity | Project Manager | Product Manager | Scrum Master | Business Analyst | UX Designer | Developers | QA Lead | DevOps Engineer |
 |---|---|---|---|---|---|---|---|---|
-| Define project objectives & success metrics | C | A | I | C | I | I | I | I |
-| Maintain and prioritize the backlog | I | A | C | R | C | C | C | I |
-| Backlog refinement & story sizing | C | C | F (facilitates) | R | C | R | C | I |
-| Sprint planning facilitation | I | C | **A/R** | I | I | R | C | I |
-| UX research & design sign-off | I | C | I | C | **A/R** | C | C | I |
-| Requirements documentation | C | A | I | **R** | C | I | C | I |
-| Technical architecture decisions | I | C | I | I | I | **A/R** | C | R |
-| CI/CD pipeline & deployment automation | I | I | I | I | I | C | C | **A/R** |
-| Test strategy & test plan | I | C | C | C | I | C | **A/R** | C |
-| Acceptance criteria review | C | A | I | R | C | R | R | I |
+| Define project objectives & success metrics | C | **A** | I | C | I | I | I | I |
+| Maintain and prioritize the backlog | I | **A** | C | R | C | C | C | I |
+| Backlog refinement & story sizing | C | C | **A** | R | C | R | C | I |
+| Sprint planning facilitation | I | C | **A** | I | I | R | C | I |
+| UX research & design sign-off | I | C | I | C | **A** | C | C | I |
+| Requirements documentation | C | **A** | I | R | C | I | C | I |
+| Technical architecture decisions | I | C | I | I | I | **A** | C | R |
+| CI/CD pipeline & deployment automation | I | I | I | I | I | C | C | **A** |
+| Test strategy & test plan | I | C | C | C | I | C | **A** | C |
+| Acceptance criteria review | C | **A** | I | R | C | R | R | I |
 | Release coordination & go/no-go | **A** | C | I | I | I | C | R | R |
-| Release communications to stakeholders | **A/R** | C | I | I | I | I | I | C |
-| Incident escalation & response | A | I | I | I | I | C | C | **R** |
-| Retrospective facilitation | C | I | **A/R** | I | I | R | R | I |
-| Risk register maintenance | **A/R** | C | C | C | I | I | I | I |
-| Stakeholder status reporting | **A/R** | C | I | I | I | I | I | I |
+| Release communications to stakeholders | **A** | C | I | I | I | I | I | C |
+| Incident escalation & response | **A** | I | I | I | I | C | C | R |
+| Retrospective facilitation | C | I | **A** | I | I | R | R | I |
+| Risk register maintenance | **A** | C | C | C | I | I | I | I |
+| Stakeholder status reporting | **A** | C | I | I | I | I | I | I |
 
-> **Note:** A single activity should have exactly one **A** (Accountable). Multiple **R** entries are allowed when work is shared.
+> **Note:** Each activity has exactly one **A** (Accountable). Multiple **R** entries are allowed when work is shared across roles. An **A** without a separate **R** means the Accountable person is also performing the work.
 
 ---
 
