@@ -14,23 +14,26 @@ Whenever a new project idea or feature proposal is ready to be explored.
 
 ## Minimum Deliverables
 - Project One-pager (Problem, Goal, Success Metrics)
-- Stakeholder list & communication plan
+- Stakeholder list & communication plan (see role definitions in [Roles & Personas](octoacme-roles-and-personas.md))
 - High-level timeline and key milestones
 - Initial risk list
 - Resource needs (team roles, rough effort estimate)
+- Role ownership assignments — complete the [RACI Ownership Matrix](octoacme-project-kickoff-checklist.md#raci-ownership-matrix-template) before moving to planning
 
 ## Project One-pager Template
 - Project name:
 - Problem statement:
 - Objective / Goal (SMART):
 - Success metrics:
-- Primary stakeholders:
+- Primary stakeholders (include Project Manager, Product Manager, Business Analyst, Scrum Master, QA Lead, DevOps Engineer, and UX Designer as applicable):
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
 - Proposed team / roles:
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
+- [ ] Stakeholder list finalized — confirm which roles from [Roles & Personas](octoacme-roles-and-personas.md) are involved
+- [ ] RACI Ownership Matrix completed (see [Project Kickoff Checklist](octoacme-project-kickoff-checklist.md))
 - [ ] Sponsor / Stakeholder alignment (email or meeting)
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
